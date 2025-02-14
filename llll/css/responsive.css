@@ -1,0 +1,125 @@
+@media only screen and (max-width: 1024px){
+#hero.container-fluid, #hero.container-fluid .row { padding-left: 0px; padding-right: 0px; margin-right: 0px; margin-left: 0px; }
+}
+
+@media only screen and (max-width: 980px){
+.desktop, .about__section .bridafter:after, .about__section .bridafter:before, .course__section:before  { display: none;}
+.mobile { display: block;}
+.dsu-intro { position: relative; width: 100%; top: 0; }
+.dsu-form { margin-left: auto; margin-right: auto; margin-top: 10px;
+    margin-bottom: 10px; border: 1px solid var(--bg-blue); }
+.dsu-addmission { margin-top: 0; padding: 10px; text-align: center; background-color: var(--bg-blue); }
+.bc-img01 { background-image: none; background-attachment: initial; height: auto;}
+#back-top { display: none !important; }
+.header .header-absolute { position: relative; background-color: var(--bg-blue); text-align: center;}
+
+.line-h { line-height: 1.2;}
+.about__section .blog-text {  margin: 0 auto; }
+.w-75 {
+    width: 100%!important;
+    text-align: center;
+}
+.about__section p.fsize20 { font-size: var(--font); }
+.himalayan__section .estimated__div { width: 100%; padding: 0.5rem; }
+.byBorder { width: 100%; }
+.feature__section .feature__area {
+    padding: 0rem 0 0rem;
+}
+.marquee__section, .widget-title h3 span.left, .widget-title h3 span.right { display:none; }
+.rbt-categori-list {
+    gap: 10px;
+    justify-content: flex-start; width: 100%;
+    flex-wrap: wrap;
+}
+.w-65 { width: 100%; }
+.feature__section { background-size: cover; }
+.feature__section .feature__area .feature__item { padding: 1rem;}
+.feature__section .feature__area .feature__item p { font-size: 1rem; }
+.activities__section .activities__item .counter, .activities__section .activities__item .plus {
+    font-size: 3rem;
+}
+.fsize20 {
+    font-size: 15px;
+}
+.leftsec_content { padding: 0 0; }
+.activities__section .w-75 .col-6:last-child{ width: 100%; margin-top: 2rem; }
+.education_item { margin-top: 1rem; }
+#testimonial-slider.owl-theme .owl-nav [class*=owl-] { display: none; }
+.testimonial__relative.mx-5 {
+    margin-right: 0rem!important;
+    margin-left: 0rem!important;
+}
+.testimonial__section .testimonial__relative .testimonial__item .testim__content { height: auto; }
+.testimonial__section .testimonial__relative .testimonial__item .testim__tittle h4 { font-size: 1.2rem; }
+.dsu-addmission .bannerContent strong { font-size: 2.1rem; }
+.dsu-addmission .bannerContent h2 { font-size: 1.8rem; }
+}
+
+@media only screen and (max-width: 736px){
+.container { max-width: 100%;}
+.thankyou-sec .hero-thankyou .bc-img01 .thankyou__dv { width: 100%; margin: 20% 0; }
+.location h3 { padding: 0.5rem 0.5rem; font-size: 0.8rem; }  
+}
+
+@media only screen and (max-width: 667px){
+.sideNavi {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    top: auto; right: auto;
+    left: 0;
+    z-index: 5;
+        -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+        background: #FFF;
+        margin-top: 0;
+    padding: 0.5rem;
+}
+.sideNavi a { display: block; text-align: center; padding: 12px 2px; margin-top: 0; }
+.footer { height: 120px; font-size: 12px; line-height: 1.2; }
+.sideNavi .sideNavi-flex { display: flex;}
+.sideNavi-item { width: 100%; margin-top: 0;}
+.text-justify { text-align: center; }
+
+}
+
+@media only screen and (max-width: 568px){
+.dsu-form { width: 100%; }
+
+}
+
+@media only screen and (max-width: 480px){
+h1, h2, h3, h3, h4, h5, h6 { font-size: 22px; }
+p { font-size: 14px; line-height: 20px; }
+.fsize28 {
+    font-size: 22px;
+}
+.thankyou-sec .hero-thankyou .bc-img01 .thankyou__dv h3 {
+    font-size: 3em;
+}
+.thankyou-sec .hero-thankyou .bc-img01 .thankyou__dv p { font-size: 16px; }
+.thankyou-sec .hero-thankyou .bc-img01 { width: 100%; height: 100vh; background-image: url(../images/banner.jpg); }
+}
+
+@media only screen and (max-width: 414px){
+
+
+
+}
+
+@media only screen and (max-width: 384px){
+
+
+}
+
+
+@media only screen and (max-width: 360px){
+
+}
+
+@media only screen and (max-width: 320px){
+
+}
